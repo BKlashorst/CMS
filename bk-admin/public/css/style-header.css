@@ -1,0 +1,16 @@
+.sidebar {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+    background: rgb(238, 238, 238);
+    padding: 8px 0px;
+    height: 100%;
+}
+
+main {
+    margin: 100px 0 0 140px;
+    height: 100%;
+}
