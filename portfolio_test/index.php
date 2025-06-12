@@ -101,7 +101,7 @@ $contents = $db->query(
                                 <?php foreach ($posts as $post): ?>
                                     <div class="col-md-4">
                                         <div class="overview-item">
-                                            <a href="page.php?slug=<?php echo htmlspecialchars($post['post_slug']); ?>" class="overview-link">
+                                            <a href="page.php?post_slug=<?php echo htmlspecialchars($post['post_slug']); ?>" class="overview-link">
                                                 <div class="overview-image">
                                                     <img src="<?php echo htmlspecialchars($post['post_image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($post['post_name']); ?>" class="img-fluid">
                                                 </div>
@@ -126,7 +126,7 @@ $contents = $db->query(
                                 <?php foreach ($posts as $post): ?>
                                     <div class="col-md-4">
                                         <div class="overview-item">
-                                            <a href="page.php?slug=<?php echo htmlspecialchars($post['post_slug']); ?>" class="overview-link">
+                                            <a href="page.php?post_slug=<?php echo htmlspecialchars($post['post_slug']); ?>" class="overview-link">
                                                 <div class="overview-image">
                                                     <img src="<?php echo htmlspecialchars($post['post_image'] ?? ''); ?>" alt="<?php echo htmlspecialchars($post['post_name']); ?>" class="img-fluid">
                                                 </div>
