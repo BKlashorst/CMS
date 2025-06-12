@@ -1,0 +1,36 @@
+footer{
+    background: rgb(17,24,53);
+    background: linear-gradient(45deg, rgba(17,24,53,1) 0%, rgba(41,51,92,1) 100%);
+    color: #fff;
+    padding: 0 80px;
+}
+
+.foot-logo{
+    width: 100%;
+    max-width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.foot-bottom-logo {
+    max-width: 434px;
+}
+
+.foot-bottom-links {
+    display: flex;
+    gap: 106px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.foot-bottom-links-1, .foot-bottom-links-2 {
+    display: flex;
+    flex-direction: column;
+}
